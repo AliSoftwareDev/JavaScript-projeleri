@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+
+}
+.container {
+    margin-top: 400px;
+    width: 400px;
+    height: 300px;
+    background-color:cadetblue;
+    border-radius: 70px;
+}
+.header {
+    text-align: center;
+    color: brown;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 30px;
+}
+
+input[type="number"] {
+        width: 150px;
+        height: 30px;
+        border-radius: 30px;
+        border: 2px solid black;
+        padding-left: 20px;
+    }
+    .create-btn {
+        padding: 10px 50px;
+        border-radius: 10px;
+        border: none;
+        background-color: burlywood;
+        color: aliceblue;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 30px;
+        margin-left: 100px;
+    }
+
+    #result {
+        padding: 1px 45px;
+        text-align: center;
+        background-color: blue;
+        font-size: 15px
+    }
+
+
