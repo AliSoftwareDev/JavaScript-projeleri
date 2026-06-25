@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f172a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #1e293b; 
+    width: 100%;
+    max-width: 600px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border: 1px solid #334155;
+}
+
+header.reservation {
+    text-align: center;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #334155;
+    padding-bottom: 15px;
+}
+
+h1.reserve {
+    color: #38bdf8; 
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+h1.info, h1.header-option {
+    font-size: 20px;
+    color: #94a3b8;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input:not([type="radio"]) {
+    width: 100%;
+    padding: 12px;
+    background-color: #0f172a;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+}
+
+.options {
+    margin-bottom: 25px;
+    background-color: #0f172a;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+}
+
+.options input[type="radio"] {
+    margin-right: 6px;
+    margin-left: 15px;
+    cursor: pointer;
+    accent-color: #38bdf8;
+}
+
+.options input[type="radio"]:first-of-type {
+    margin-left: 0;
+}
+
+.counts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.counts label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.extra {
+    margin-top: 15px;
+}
+
+#submit-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+#submit-btn:hover {
+    background-color: #0ea5e9;
+}
+
+#submit-btn:active {
+    transform: scale(0.98);
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservation.css">
+    <title>Rezervasyon Formu</title>
+</head>
+<body>
+    <div class="container">
+        <header class="reservation">
+            <h1 class="reserve">Software Hotel</h1>
+        </header>
+
+    <div class="content">
+        <h1 class="info">Kişisel Bilgiler</h1> 
+        <input id="name" class="info" placeholder="Ad" />
+        <input id="surname" class="mation" placeholder="Soyad" />
+        <input id="phone" class="number" placeholder="Telefon Numarası" />
+        <input id="mail" class="adress" placeholder="E-Posta" />
+        <input id="access" type="date" class="entry" placeholder="Giriş Tarihi" />
+        <input id="issue" type="date" class="ascent" placeholder="Çıkış Tarihi" />
+</div>
+
+        <div class="options">
+            <h1 class="header-option">Rezervasyon Türleri</h1>
+            <input type="radio" name="rezervation-type" value="special">Kişiye Özel
+            <input type="radio" name="rezervation-type" value="travel">Seyahat Acentesi
+            <input type="radio" name="rezervation-type" value="group">Grup Rezervasyonu
+        <br>    
+            <div class="counts">
+            <br>
+            <label>Oda Sayısı: <input type="number" id="room-count" min="1" max="50" /></label>
+            <label>Yetişkin Sayısı <input type="number" id="adult-count" min="1" /></label>
+            <label>Çocuk Sayısı <input type="number" id="child-count" min="1"></label>
+        </div>
+
+        <div class="extra">
+            <br>
+            <input type="text" placeholder="Eklemek İstedikleriniz" />
+        </div>
+    </div>
+
+    <button id="submit-btn" class="info">Gönder</button>
+</div>
+
+
+
+
+
+
+
+
+    <script src="reservation.js"></script>
+</body>
+</html>
